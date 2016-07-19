@@ -1,13 +1,13 @@
-set_property SRC_FILE_INFO {cfile:/home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc rfile:../../../zybo_bsd.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:system_i/processing_system7_0/inst} [current_design]
-set_property SRC_FILE_INFO {cfile:/home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/base.xdc rfile:../../../zybo_bsd.srcs/constrs_1/new/base.xdc id:2} [current_design]
-set_property SRC_FILE_INFO {cfile:/home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0_clocks.xdc rfile:../../../zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0_clocks.xdc id:3 order:LATE scoped_inst:system_i/axi_vdma_0/U0} [current_design]
-set_property SRC_FILE_INFO {cfile:/home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc rfile:../../../zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc id:4 order:LATE scoped_inst:system_i/axi_vdma_1/U0} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc rfile:../../../zybo_bsd.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:system_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/base.xdc rfile:../../../zybo_bsd.srcs/constrs_1/new/base.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0_clocks.xdc rfile:../../../zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0_clocks.xdc id:3 order:LATE scoped_inst:system_i/axi_vdma_0/U0} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc rfile:../../../zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc id:4 order:LATE scoped_inst:system_i/axi_vdma_1/U0} [current_design]
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
-set_input_jitter clk_fpga_0 0.3
-set_property src_info {type:SCOPED_XDC file:1 line:24 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_2 2.44614
-set_property src_info {type:SCOPED_XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:24 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_1 0.19998
+set_property src_info {type:SCOPED_XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter clk_fpga_0 0.3
 set_property src_info {type:SCOPED_XDC file:1 line:37 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN "C11" [get_ports "MIO[53]"]
 set_property src_info {type:SCOPED_XDC file:1 line:43 export:INPUT save:INPUT read:READ} [current_design]

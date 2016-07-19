@@ -20,7 +20,7 @@
        {{000 0000001} {001 0000010} {010 0000100} {011 0001000} {100 0010000} {101 0100000} {110 1000000} }
 
  add_fsm_encoding \
-       {axi_data_fifo_v2_1_6_axic_reg_srl_fifo.state} \
+       {axi_data_fifo_v2_1_8_axic_reg_srl_fifo.state} \
        { }  \
        {{00 0100} {01 1000} {10 0001} {11 0010} }
 

@@ -51,14 +51,14 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_vdd_1 ||
 # IP: bd/system/ip/system_xlconstant_0_2/system_xlconstant_0_2.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xlconstant_0_2 || ORIG_REF_NAME==system_xlconstant_0_2}]
 
+# IP: bd/system/ip/system_myLED_0_1/system_myLED_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_myLED_0_1 || ORIG_REF_NAME==system_myLED_0_1}]
+
 # IP: bd/system/ip/system_xbar_0/system_xbar_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xbar_0 || ORIG_REF_NAME==system_xbar_0}]
 
 # IP: bd/system/ip/system_xbar_1/system_xbar_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xbar_1 || ORIG_REF_NAME==system_xbar_1}]
-
-# IP: bd/system/ip/system_myLED_0_1/system_myLED_0_1.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_myLED_0_1 || ORIG_REF_NAME==system_myLED_0_1}]
 
 # IP: bd/system/ip/system_m00_regslice_0/system_m00_regslice_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_m00_regslice_0 || ORIG_REF_NAME==system_m00_regslice_0}]

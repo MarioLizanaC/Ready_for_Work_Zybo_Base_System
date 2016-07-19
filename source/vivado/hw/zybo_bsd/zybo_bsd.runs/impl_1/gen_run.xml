@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1461270199">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1468938945">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="RDI-RDI" Name="system_wrapper.vdi"/>
   <File Type="BG-DRC" Name="system_wrapper.drc"/>
@@ -13,8 +13,9 @@
   <File Type="BG-BIN" Name="system_wrapper.bin"/>
   <File Type="BG-BIT" Name="system_wrapper.bit"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="system_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="system_wrapper_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="system_wrapper_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="system_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="system_wrapper_postroute_physopt_bb.dcp"/>
   <File Type="ROUTE-CLK" Name="system_wrapper_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-SIMILARITY" Name="system_wrapper_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-TIMING-RPX" Name="system_wrapper_timing_summary_routed.rpx"/>
@@ -22,10 +23,14 @@
   <File Type="ROUTE-TIMINGSUMMARY" Name="system_wrapper_timing_summary_routed.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="system_wrapper_route_status.pb"/>
   <File Type="ROUTE-STATUS" Name="system_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="system_wrapper_power_routed.rpx"/>
   <File Type="ROUTE-PWR-SUM" Name="system_wrapper_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR" Name="system_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="system_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="system_wrapper_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="system_wrapper_drc_routed.pb"/>
   <File Type="ROUTE-DRC" Name="system_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="system_wrapper_routed_bb.dcp"/>
   <File Type="ROUTE-DCP" Name="system_wrapper_routed.dcp"/>
   <File Type="PHYSOPT-TIMING" Name="system_wrapper_timing_summary_physopted.rpt"/>
   <File Type="PHYSOPT-DRC" Name="system_wrapper_drc_physopted.rpt"/>
@@ -46,14 +51,12 @@
   <File Type="PWROPT-DCP" Name="system_wrapper_pwropt.dcp"/>
   <File Type="OPT-TIMING" Name="system_wrapper_timing_summary_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="system_wrapper.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="system_wrapper_methodology_drc_opted.rpt"/>
   <File Type="OPT-DRC" Name="system_wrapper_drc_opted.rpt"/>
   <File Type="OPT-DCP" Name="system_wrapper_opt.dcp"/>
   <File Type="INIT-TIMING" Name="system_wrapper_timing_summary_init.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="system_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="system_wrapper_postroute_physopt.dcp"/>
   <File Type="PA-TCL" Name="system_wrapper.tcl"/>
-  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
-  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
-  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
@@ -101,9 +104,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2013">
-      <Desc>Vivado Implementation Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2013"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

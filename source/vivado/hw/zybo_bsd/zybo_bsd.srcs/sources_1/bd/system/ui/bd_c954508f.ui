@@ -1,5 +1,5 @@
 {
-   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.8
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
 #  -string -flagsOSRD
 preplace port HDMI_CLK_P -pg 1 -y 1630 -defaultsOSRD
 preplace port DDR -pg 1 -y 460 -defaultsOSRD
@@ -31,8 +31,8 @@ preplace portBus HDMI_OEN -pg 1 -y 1450 -defaultsOSRD
 preplace inst vdd -pg 1 -lvl 7 -y 1450 -defaultsOSRD
 preplace inst hdmi_tx_0 -pg 1 -lvl 7 -y 1700 -defaultsOSRD
 preplace inst axi_vdma_0 -pg 1 -lvl 2 -y 880 -defaultsOSRD
-preplace inst xlconstant_0 -pg 1 -lvl 1 -y 940 -defaultsOSRD
 preplace inst axi_vdma_1 -pg 1 -lvl 2 -y 1350 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 940 -defaultsOSRD
 preplace inst axi_protocol_converter_0 -pg 1 -lvl 5 -y 720 -defaultsOSRD
 preplace inst SWs_4Bits -pg 1 -lvl 7 -y 890 -defaultsOSRD
 preplace inst axi_dispctrl_0 -pg 1 -lvl 7 -y 670 -defaultsOSRD
@@ -40,8 +40,8 @@ preplace inst axi_dispctrl_1 -pg 1 -lvl 7 -y 1240 -defaultsOSRD
 preplace inst BTNs_4Bits -pg 1 -lvl 7 -y 400 -defaultsOSRD
 preplace inst myLED_0 -pg 1 -lvl 7 -y 1020 -defaultsOSRD
 preplace inst axi_i2s_adi_1 -pg 1 -lvl 7 -y 170 -defaultsOSRD
-preplace inst ground -pg 1 -lvl 6 -y 1560 -defaultsOSRD
 preplace inst axi_mem_intercon -pg 1 -lvl 3 -y 620 -defaultsOSRD
+preplace inst ground -pg 1 -lvl 6 -y 1560 -defaultsOSRD
 preplace inst processing_system7_0_axi_periph -pg 1 -lvl 6 -y 900 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 4 -y 580 -defaultsOSRD
 preplace netloc processing_system7_0_DDR 1 4 4 NJ 460 NJ 460 NJ 470 NJ

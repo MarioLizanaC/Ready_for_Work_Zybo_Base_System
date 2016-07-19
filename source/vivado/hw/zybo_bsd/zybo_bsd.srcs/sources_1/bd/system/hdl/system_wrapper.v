@@ -1,8 +1,8 @@
-//Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+//Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
-//Date        : Thu Apr 21 22:17:05 2016
-//Host        : mario running 64-bit Linux Mint 17.3 Rosa
+//Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+//Date        : Tue Jul 19 16:32:13 2016
+//Host        : ASUS running 64-bit Linux Mint 18 Sarah
 //Command     : generate_target system_wrapper.bd
 //Design      : system_wrapper
 //Purpose     : IP block netlist

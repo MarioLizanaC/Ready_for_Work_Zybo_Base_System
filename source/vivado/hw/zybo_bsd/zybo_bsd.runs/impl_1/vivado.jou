@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2015.4 (64-bit)
-# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
-# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Thu Apr 21 22:32:19 2016
-# Process ID: 28666
-# Current directory: /home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jul 19 16:47:34 2016
+# Process ID: 20182
+# Current directory: /home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1
 # Command line: vivado -log system_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
-# Log file: /home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/system_wrapper.vdi
-# Journal file: /home/mario/Documentos/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/vivado.jou
+# Log file: /home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/system_wrapper.vdi
+# Journal file: /home/mario/Documents/Ready_for_Work_Zybo_Base_System/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source system_wrapper.tcl -notrace

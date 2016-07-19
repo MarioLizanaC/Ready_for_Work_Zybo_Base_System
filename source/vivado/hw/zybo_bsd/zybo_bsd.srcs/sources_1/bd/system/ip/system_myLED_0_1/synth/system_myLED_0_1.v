@@ -50,7 +50,7 @@
 // IP VLNV: MarioLizanaC.com:user:myLED:1.0
 // IP Revision: 4
 
-(* X_CORE_INFO = "myLED_v1_0,Vivado 2015.4" *)
+(* X_CORE_INFO = "myLED_v1_0,Vivado 2016.2" *)
 (* CHECK_LICENSE_TYPE = "system_myLED_0_1,myLED_v1_0,{}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module system_myLED_0_1 (
